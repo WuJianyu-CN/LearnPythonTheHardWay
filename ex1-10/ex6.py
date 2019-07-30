@@ -31,3 +31,5 @@ w = "This is the left side of ..."
 e = "a string with the right side."
 
 print(w + e)
+print(w, end=' ')
+print(e)
