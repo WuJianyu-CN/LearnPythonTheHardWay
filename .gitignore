@@ -1,0 +1,7 @@
+# Python:
+*.py~
+*.so
+*.egg
+*.egg-info
+dist
+build
