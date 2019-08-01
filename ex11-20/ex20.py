@@ -9,9 +9,11 @@ script, input_file = argv
 def print_all(f):
     print(f.read())
 
+# the seek() function is dealing in bytes, not lines.
 def rewind(f):
     f.seek(0)
 
+# readline() has a implicit '\n', we can use print(line_count, f.readline(), end='')
 def print_a_line(line_count, f):
     print(line_count, f.readline())
 
