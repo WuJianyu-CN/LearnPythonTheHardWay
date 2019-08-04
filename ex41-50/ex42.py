@@ -64,5 +64,18 @@ mary = Person("Mary")
 # mary has-a pet satan
 mary.pet = satan
 
-# frank is-a Employee has-
+# frank is-a Employee
+frank = Employee("Frank", 120000)
+
+# frank has a pet rover
+frank.pet = rover
+
+# flipper is-a Fish
+flipper = Fish()
+
+# crouse is-a Salmon
+crouse = Salmon()
+
+# harry is-a Halibut
+harry = Halibut()
 
