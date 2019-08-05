@@ -1,8 +1,8 @@
-'''
+"""
     Is-A, Has-A, Objects, and Classes
     You use the phrase is-a when you talk about objects and classes being related to each other by a class.
     You use has-a when you talk about objects and classes that are related only because they reference each other
-'''
+"""
 ## Animal is-a object
 class Animal(object):
     pass

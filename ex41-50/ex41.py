@@ -1,6 +1,6 @@
-'''
+"""
     Learning to Speak Object-Oriented
-'''
+"""
 import random
 from urllib.request import urlopen
 import sys
