@@ -14,7 +14,7 @@ config = {
     'author_email': 'My email.',
     'version': '0.1',
     'install_requires': ['nose'],
-    'packages': ['NAME'],
+    'packages': ['ex47'],
     'scripts': [],
     'name': 'projectname'
 }
